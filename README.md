@@ -11,7 +11,7 @@ This repository contains the RTL implementation (Verilog/SystemVerilog) and UVM-
 
 ## Key Architecture Features
 * **Independent Channels:** 5 separate channels for address/control and data.
-* **Burst-based Transactions:** Supports burst lengths up to 256 beats (AXI4).
+* **Burst-based Transactions:** Supports burst lengths up to 128 (AXI3) and 256 beats (AXI4).
 * **Separate Phases:** Address and Data phases are decoupled, allowing for high-frequency operation and pipelining.
 * **Out-of-Order Completion:** Uses ID tags to allow transactions to finish out of order, optimizing memory controller efficiency.
 
