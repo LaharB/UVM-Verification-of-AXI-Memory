@@ -7,7 +7,7 @@ This repository showcases the verification of AXI Lite Memory using UVM.The desi
 ## Introduction
 The **Advanced eXtensible Interface(AXI)** is part of the ARM AMBA (Advanced Microcontroller Bus Architecture) family. It is a point-to-point interconnect protocol designed for high-performance, high-frequency system designs. 
 
-This repository contains the RTL implementation (Verilog/SystemVerilog) and UVM-based verification environment for an AXI4-based system.
+This repository contains the RTL implementation (Verilog/SystemVerilog) and UVM-based verification environment for an AXI-based system.
 
 ## Key Architecture Features
 * **Independent Channels:** 5 separate channels for address/control and data.
