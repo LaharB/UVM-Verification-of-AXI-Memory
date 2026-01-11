@@ -62,6 +62,10 @@ AXI supports three main burst types, defined by the `AWBURST` or `ARBURST` signa
 2.  **INCR (Incrementing):** The address increments by the size of the transfer (Used for normal memory access).
 3.  **WRAP:** Similar to INCR, but the address wraps around once it reaches a boundary (Used for Cache Line fills).
 
+## AXI Channels 
+
+![alt text](docs/AXI_Protocol_Channels.jpg)
+
 ---
 
 ## 4. Signal Summary Table (AXI4 Full)
