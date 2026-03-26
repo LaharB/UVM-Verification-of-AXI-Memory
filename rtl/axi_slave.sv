@@ -1183,4 +1183,3 @@ interface axi_if();
     logic [31:0] next_addrwr;
     logic [31:0] next_addrrd;
 
-endinterface 
