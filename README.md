@@ -1304,7 +1304,7 @@ interface axi_if();
 
     ///extra vars for next_addr in write and read 
     logic [31:0] next_addrwr;
-    logic [31:0] next_addrrd;
+    logic [31:0] next_addrrd; 
 
 endinterface  
 ```
