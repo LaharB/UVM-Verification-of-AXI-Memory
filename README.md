@@ -1236,20 +1236,19 @@ module axi_slave(
 
                         if(len_count < (arlen))
                             begin
-                                if(arready)
-                                //if(rready)
+                                if(rready)
                                     begin
-                                        rnext_state = rstart;
                                         len_count = len_count + 1;
+                                        rnext_state = rstart;   
                                     end 
-                                else
-                                    begin
-                                        rlast = 1'b1;
-                                        rnext_state = ridle;
-                                        len_count = 0;
-                                    end
-                            end    
-                    end
+                             end
+                        else
+                             begin
+                                rlast = 1'b1;
+                                rnext_state = ridle;
+                                len_count = 0;
+                             end       
+                       end    
                 
                 default: rnext_state = ridle;
             endcase    
@@ -1307,7 +1306,7 @@ interface axi_if();
     logic [31:0] next_addrwr;
     logic [31:0] next_addrrd;
 
-endinterface 
+endinterface  
 ```
 </details>
 
