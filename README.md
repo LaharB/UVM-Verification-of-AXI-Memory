@@ -2198,6 +2198,12 @@ endmodule
 
 ![alt text](<sim/9.wrrd_wrap seq P2.png>)
 
+### 5.Error in Write and Read in Fixed mode
+
+![alt text](<sim/10.wrrd_err_fixed seq P1.png>)
+
+![alt text](<sim/11.wrrd_err_fixed seq P2.png>)
+
 </details>
 
 ----
